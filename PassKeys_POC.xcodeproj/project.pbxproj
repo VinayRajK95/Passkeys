@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C1020E7729B6009A00F3872B /* FRBLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1020E7629B6009A00F3872B /* FRBLoginViewController.swift */; };
-		C1020E8629B7615400F3872B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1020E8529B7615400F3872B /* HomeViewController.swift */; };
 		C1D148942990D560008568E2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D148932990D560008568E2 /* Extensions.swift */; };
 		C1D148962990F593008568E2 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D148952990F593008568E2 /* NetworkManager.swift */; };
 		C1DA668C29791BE600055814 /* AccountManagerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DA668B29791BE600055814 /* AccountManagerModel.swift */; };
@@ -23,8 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C1020E7629B6009A00F3872B /* FRBLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRBLoginViewController.swift; sourceTree = "<group>"; };
-		C1020E8529B7615400F3872B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C17478E9296FDF9D005618A8 /* PassKeys_POCDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PassKeys_POCDebug.entitlements; sourceTree = "<group>"; };
 		C1D148932990D560008568E2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C1D148952990F593008568E2 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -94,8 +90,6 @@
 				C1D148952990F593008568E2 /* NetworkManager.swift */,
 				E0C944D22669A7DF0033265C /* SignInViewController.swift */,
 				E0C944D62669A8840033265C /* UserHomeViewController.swift */,
-				C1020E7629B6009A00F3872B /* FRBLoginViewController.swift */,
-				C1020E8529B7615400F3872B /* HomeViewController.swift */,
 				E09D56F42669A5F2004A809B /* Main.storyboard */,
 				E09D56F92669A5F5004A809B /* LaunchScreen.storyboard */,
 				E09D56F72669A5F5004A809B /* Assets.xcassets */,
@@ -188,9 +182,7 @@
 				E0C944D52669A8060033265C /* AccountManager.swift in Sources */,
 				C1DA668C29791BE600055814 /* AccountManagerModel.swift in Sources */,
 				E0C944D32669A7DF0033265C /* SignInViewController.swift in Sources */,
-				C1020E7729B6009A00F3872B /* FRBLoginViewController.swift in Sources */,
 				E09D56EF2669A5F2004A809B /* AppDelegate.swift in Sources */,
-				C1020E8629B7615400F3872B /* HomeViewController.swift in Sources */,
 				C1D148962990F593008568E2 /* NetworkManager.swift in Sources */,
 				E0C944D72669A8840033265C /* UserHomeViewController.swift in Sources */,
 				E09D56F12669A5F2004A809B /* SceneDelegate.swift in Sources */,
