@@ -32,9 +32,7 @@ class SignInViewController: UIViewController {
         }
     }
     
-    override func viewDidDisappear(_ animated: Bool)
-    {
-        super.viewDidDisappear(animated)
+    override func viewDidDisappear(_ animated: Bool) {
         if let signInObserver = signInObserver {
             NotificationCenter.default.removeObserver(signInObserver)
         }
@@ -42,10 +40,11 @@ class SignInViewController: UIViewController {
         if let errorObserver = errorObserver {
             NotificationCenter.default.removeObserver(errorObserver)
         }
+        
+        super.viewDidDisappear(animated)
     }
     
-    override func becomeFirstResponder() -> Bool
-    {
+    override func becomeFirstResponder() -> Bool {
         return true
     }
 
